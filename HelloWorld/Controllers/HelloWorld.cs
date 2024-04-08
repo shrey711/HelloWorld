@@ -10,7 +10,7 @@ namespace HelloWorld.Controllers
         [HttpGet] 
         public IActionResult Hello_World() 
         {
-            return Ok(new {Message="HelloWorld"})
+            return Ok(new { Message = "HelloWorld" });
         }
     }
 }
